@@ -2,7 +2,7 @@ const express = require("express")//Fast, unopinionated, minimalist web framewor
 const helmet = require("helmet")//Helmet helps you secure your Express apps by setting various HTTP headers.
 const cors = require("cors")//CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
 const config = require("./config")
-const {categoryRoutes,brandRoutes} =require("./api-routes")
+const {categoryRoutes,brandRoutes,userRoutes} =require("./api-routes")
 
 config()
 
@@ -15,6 +15,7 @@ app.use(helmet())//Runs the helmet
 
 app.use("/categories",categoryRoutes)
 app.use("/brands",brandRoutes)
+app.use("/login",userRoutes)
 
 
 app.listen(process.env.APP_PORT,()=>{
