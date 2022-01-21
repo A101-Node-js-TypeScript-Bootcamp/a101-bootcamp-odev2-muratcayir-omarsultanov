@@ -57,7 +57,7 @@ npm start
 ## [JWT](https://github.com/auth0/node-jsonwebtoken) 
 >"An implementation of JSON Web Tokens."
 
-[NODEMON](https://github.com/remy/nodemon) 
+## [NODEMON](https://github.com/remy/nodemon) 
 >"nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.Nodemon does not require any additional changes to your code or method of development.Nodemon is a replacement wrapper for node. To use nodemon, replace the word node on the command line when executing your script."
 
 ## [WINSTON](https://github.com/winstonjs/winston) 
